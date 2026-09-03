@@ -12,5 +12,15 @@ use clap::Subcommand;
 pub enum Command {
     Ingest(IngestArgs),
     Inspect(InspectArgs),
-    Query(QueryArgs),
+    Query(QueryArgs)
+}
+impl  Command {
+    pub fn run(&self){
+         match &self {
+            Command::Ingest(args) => args.run(),
+            Command::Inspect(args) => args.run(),
+            Command::Query(args) => args.run(),
+        }
+    }
+   
 }

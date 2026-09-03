@@ -6,3 +6,8 @@ pub struct InspectArgs {
     #[arg(short, long)]
     pub verbose: bool,
 }
+impl InspectArgs {
+    pub fn run(&self) {
+        println!("Inspecting (verbose: {})", self.verbose);
+    }
+}
