@@ -1,0 +1,4 @@
+script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+touch "$script_dir/file-001.txt"
+echo "File created: $script_dir/file-001.txt"
+echo "Script executed successfully." > "$script_dir/file-001.txt"
