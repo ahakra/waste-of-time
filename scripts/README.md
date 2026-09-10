@@ -8,3 +8,8 @@ rm -i scripts/file-001.txt
   grep ^Script file-001.txt 
   grep $fully. file-001.txt
 ```
+
+## dictonary
+```bash
+cat /usr/share/dict/words
+```
