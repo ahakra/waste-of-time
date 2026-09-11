@@ -1,0 +1,165 @@
+Script started on 2026-09-11 14:37:10+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="161" LINES="14"]
+[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ ./script 
+[?2004lhello ahmad (your number is 38)
+your system is Linux
+[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ git
+[?2004lusage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README.md[m
+	[31mmodified:   file-001.txt[m
+	[31mmodified:   initial.sh[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mscript[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ git status[K./script ls[Kmake ingest[6Pcargo[1Prustccargo[1Pmake^C[?2004l[?2004h[?2004l
+[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ vim script 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;14r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[14;1H"script" 8L, 135B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/usr/bin/env bash[m[2;1H[K[3;1H[36mname[m=[38;5;130m'[m[31mahmad[m[38;5;130m'[m[3;13H[K[4;1H[36mnumber[m=[31m38[m
+[36msystem[m=[35m$([m[35muname[m[35m)[m
+
+[38;5;130mecho[m[31m [m[38;5;130m"[m[31mhello [m[35m$name[m[31m (your number is [m[35m$number[m[31m)[m[38;5;130m"
+echo[m[31m [m[38;5;130m"[m[31myour system is [m[35m$system[m[38;5;130m"[m
+[94m~                                                                                                                                                                [10;1H~                                                                                                                                                                [11;1H~                                                                                                                                                                [12;1H~                                                                                                                                                                [13;1H~                                                                                                                                                                [m[14;144H1,1[11CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[96m#!/usr/bin/env bash[m
+
+[1m[96mname[m=[93m'[m[95mahmad[m[93m'[m
+[1m[96mnumber[m=[95m38[m
+[1m[96msystem[m=[38;5;81m$([m[38;5;224muname[m[38;5;81m)[m
+
+[93mecho[m[95m [m[93m"[m[95mhello [m[38;5;81m$name[m[95m (your number is [m[38;5;81m$number[m[95m)[m[93m"
+echo[m[95m [m[93m"[m[95myour system is [m[38;5;81m$system[m[93m"[m
+[94m~                                                                                                                                                                [10;1H~                                                                                                                                                                [11;1H~                                                                                                                                                                [12;1H~                                                                                                                                                                [13;1H~                                                                                                                                                                [m[14;144H1,1[11CAll"script" 8L, 135B[1;1H[?25h[?25l[14;134H~@k[1;1H[14;134H   [2;1H[14;144H2,0-1[2;1H[?25h[?25l[14;134H~@k[2;1H[14;134H   [3;1H[14;144H3,1  [3;1H[?25h[?25l[14;134H~@k[3;1H[14;134H   [4;1H[14;144H4[4;1H[?25h[?25l[14;134H~@k[4;1H[14;134H   [5;1H[14;144H5[5;1H[?25h[?25l[14;134H~@k[5;1H[14;134H   [6;1H[14;144H6,0-1[6;1H[?25h[?25l[14;134H~@k[6;1H[14;134H   [7;1H[14;144H7,1  [7;1H[?25h[?25l[14;134H~@k[7;1H[14;134H   [8;1H[14;144H8[8;1H[?25h[?25l[14;134H~@k[8;1H[14;134H   [8;1H[?25h[?25l[14;134H~@k[8;1H[14;134H   [8;1H[?25h[?25l[14;134H~@k[8;1H[14;134H   [8;1H[?25h[?25l[14;134H~@k[8;1H[14;134H   [8;1H[?25h[?25l[14;134H~@k[8;1H[14;134H   [8;1H[?25h[?25l[14;134H~@k[8;1H[14;134H   [8;1H[?25h[?25l[14;134H^M[8;1H[14;134H  [8;1H[?25h[?25l[14;134Ho[8;1H[14;134H [9;1H[14;1H[1m-- INSERT --[m[14;14H[K[14;144H9,1[11CAll[9;1H[K[9;1H[?25h[?25l[10;1H[K[14;144H10,1[10;1H[?25h[?25l[14;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[m[14;144H[K[10;1H[?25h[?25l[14;4H[1mINSERTe --^[m[14;13H[K[14;144H10,1[10CAll[10;1H[94m~                                                                                                                                                                [m[14;144H9,1 [9;1H[?25h[14;1H[K[9;1H[?25l[14;134H^[[9;1H[14;134H  [9;1H[14;144H9,0-1[9CAll[9;1H[?25h[?25l[14;134H:[9;1H[14;134H[K[14;1H:[?25hwq[?25l[?2004l[>4;m"script" 9L, 136B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ cp script  loop
+[?2004l[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ na[K[Kvim loop 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;14r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[14;1H"loop" 9L, 136B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/usr/bin/env bash[m[2;1H[K[3;1H[36mname[m=[38;5;130m'[m[31mahmad[m[38;5;130m'[m[3;13H[K[4;1H[36mnumber[m=[31m38[m
+[36msystem[m=[35m$([m[35muname[m[35m)[m
+
+[38;5;130mecho[m[31m [m[38;5;130m"[m[31mhello [m[35m$name[m[31m (your number is [m[35m$number[m[31m)[m[38;5;130m"
+echo[m[31m [m[38;5;130m"[m[31myour system is [m[35m$system[m[38;5;130m"[m
+
+[94m~                                                                                                                                                                [11;1H~                                                                                                                                                                [12;1H~                                                                                                                                                                [13;1H~                                                                                                                                                                [m[14;144H1,1[11CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[96m#!/usr/bin/env bash[m
+
+[1m[96mname[m=[93m'[m[95mahmad[m[93m'[m
+[1m[96mnumber[m=[95m38[m
+[1m[96msystem[m=[38;5;81m$([m[38;5;224muname[m[38;5;81m)[m
+
+[93mecho[m[95m [m[93m"[m[95mhello [m[38;5;81m$name[m[95m (your number is [m[38;5;81m$number[m[95m)[m[93m"
+echo[m[95m [m[93m"[m[95myour system is [m[38;5;81m$system[m[93m"[m
+
+[94m~                                                                                                                                                                [11;1H~                                                                                                                                                                [12;1H~                                                                                                                                                                [13;1H~                                                                                                                                                                [m[14;144H1,1[11CAll"loop" 9L, 136B[1;1H[?25h[?25l[14;134H~@k[1;1H[14;134H   [2;1H[14;144H2,0-1[2;1H[?25h[?25l[14;134H~@k[2;1H[14;134H   [3;1H[14;144H3,1  [3;1H[?25h[?25l[14;134Hd[3;1H[?25h[?25l[14;135Hd[3;1H[14;134H  [3;1H[3;13r[13;1H
+[1;14r[13;1H[94m~                                                                                                                                                                [m[14;1H[K[14;144H3,1[11CAll[3;1H[?25h[?25l[14;134Hd[3;1H[?25h[?25l[14;135Hd[3;1H[14;134H  [3;1H[3;13r[13;1H
+[1;14r[13;1H[94m~                                                                                                                                                                [m[14;144H[K[14;144H3,1[11CAll[3;1H[?25h[?25l[14;134Hd[3;1H[?25h[?25l[14;135Hd[3;1H[14;134H  [3;1H[3;13r[13;1H
+[1;14r[13;1H[94m~                                                                                                                                                                [m[14;144H[K[14;144H3,0-1[9CAll[3;1H[?25h[?25l[14;134Hd[3;1H[?25h[?25l[14;135Hd[3;1H[14;134H  [3;1H[3;13r[13;1H
+[1;14r[13;1H[94m~                                                                                                                                                                [m[14;144H[K[14;144H3,1[11CAll[3;1H[?25h[?25l[14;134Hd[3;1H[?25h[?25l[14;135Hd[3;1H[14;134H  [3;1H[3;13r[13;1H
+[1;14r[13;1H[94m~                                                                                                                                                                [m[14;144H[K[14;144H3,1[11CAll[3;1H[?25h[?25l[14;134Hd[3;1H[?25h[?25l[14;135Hd[3;1H[14;134H  [3;1H[3;13r[13;1H
+[1;14r[13;1H[94m~                                                                                                                                                                [m[14;144H[K[14;144H3,0-1[9CAll[3;1H[?25h[?25l[14;134Hd[3;1H[?25h[?25l[14;135Hi[3;1H[?25h[?25l[14;136Hi[3;1H[14;134H   [3;1H[?25h[?25l[14;134Hf[3;1H[?25h[?25l[14;135Hi[3;1H[14;134H  [3;1H[?25h[?25l[14;134Hf[3;1H[?25h[?25l[14;135H~@k[3;1H[14;134H    [3;1H[?25h[?25l[14;134H~@k[3;1H[14;134H   [2;1H[14;144H2[2;1H[?25h[?25l[14;134H~@k[2;1H[14;134H   [1;19H[14;144H1,19 [1;19H[?25h[?25l[14;134H^[[1;19H[14;134H  [1;19H[14;134H^[[1;19H[14;134H  [1;19H[?25h[?25l[14;134H^[[1;19H[14;134H  [1;19H[14;134H^[[1;19H[14;134H  [1;19H[?25h[?25l[14;134H^[[1;19H[14;134H  [1;19H[14;134H^[[1;19H[14;134H  [1;19H[?25h[?25l[14;134Ho[1;19H[14;134H [2;2H[14;1H[1m-- INSERT --[m[14;144H[K[14;144H2,2[11CAll[2;13r[2;1H[L[1;14r[2;1H[96m#[m[14;144H[K[14;144H2,2[11CAll[2;2H[?25h[?25l[2;1H[K[14;146H1[2;1H[?25h[?25l[3;13r[3;1H[L[1;14r[14;144H[K[14;144H3,1[11CAll[3;1H[?25h[?25lf[14;146H2[3;2H[?25h[?25lo[14;146H3[3;3H[?25h[?25l[93mfor[m[14;146H4[3;4H[?25h[?25l[14;146H5[3;5H[?25h[?25lt[14;146H6[3;6H[?25h[?25lh[14;146H7[3;7H[?25h[?25li[14;146H8[3;8H[?25h[?25ln[14;146H9[3;9H[?25h[?25lg[14;146H10[3;10H[?25h[?25l[14;147H1[3;11H[?25h[?25li[14;147H2[3;12H[?25h[?25l[93min[m[14;147H3[3;13H[?25h[?25l[14;147H4[3;14H[?25h[?25lf[14;147H5[3;15H[?25h[?25lo[14;147H6[3;16H[?25h[?25lo[14;147H7[3;17H[?25h[?25l[14;147H8[3;18H[?25h[?25lb[14;147H9[3;19H[?25h[?25la[14;146H20[3;20H[?25h[?25lz[14;147H1[3;21H[?25h[?25l[14;147H2[3;22H[?25h[?25lb[14;147H3[3;23H[?25h[?25la[14;147H4[3;24H[?25h[?25lt[14;147H5[3;25H[?25h[?25l;[14;147H6[3;26H[?25h[?25l[14;147H7[3;27H[?25h[?25ld[14;147H8[3;28H[?25h[?25l[93mdo[m[14;147H9[3;29H[?25h[?25l[4;13r[4;1H[L[1;14r[14;144H[K[14;144H4,2-9[9CAll[4;9H[?25h[?25le[14;146H3-10[4;10H[?25h[?25lc[14;146H4-11[4;11H[?25h[?25lh[14;146H5-12[4;12H[?25h[?25l[93mecho[m[14;146H6-13[4;13H[?25h[?25l[95m [m[14;146H7-14[4;14H[?25h[?25l[93m"[m[14;146H8-15[4;15H[?25h[?25l[95mt[m[14;146H9-16[4;16H[?25h[?25l[95mh[m[14;146H10-17[4;17H[?25h[?25l[95mi[m[14;147H1-18[4;18H[?25h[?25l[95mn[m[14;147H2-19[4;19H[?25h[?25l[95mg[m[14;147H3-20[4;20H[?25h[?25l[95m [m[14;147H4-21[4;21H[?25h[?25l[95mi[m[14;147H5-22[4;22H[?25h[?25l[95ms[m[14;147H6-23[4;23H[?25h[?25l[95m [m[14;147H7-24[4;24H[?25h[?25l[95m$[m[14;147H8-25[4;25H[?25h[?25l[38;5;81m$t[m[14;147H9-26[4;26H[?25h[?25l[38;5;81mh[m[14;146H20-27[4;27H[?25h[?25l[38;5;81mi[m[14;147H1-28[4;28H[?25h[?25l[38;5;81mn[m[14;147H2-29[4;29H[?25h[?25l[38;5;81mg[m[14;147H3-30[4;30H[?25h[?25l[95m:[m[14;147H4-31[4;31H[?25h[?25l[4;30H[K[14;147H3-30[4;30H[?25h[?25l[93m"[m[14;147H4-31[4;31H[?25h[?25l[5;13r[5;1H[L[1;14r[14;144H[K[14;144H5,2-9[9CAll[5;9H[?25h[?25l[14;146H1  [5;1H[?25h[?25ld[14;146H2[5;2H[?25h[?25l[93mdo[m[14;146H3[5;3H[?25h[?25ldon[14;146H4[5;4H[?25h[?25l[93mdone[m[14;146H5[5;5H[?25h[14;1H[K[5;4H[?25l[14;134H^[[5;4H[14;134H  [5;5H[14;144H5,4[11CAll[5;4H[?25h[?25l[14;134H:[5;4H[14;134H[K[14;1H:[?25hwq[?25l[?2004l[>4;m"loop" 7L, 81B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ ./loop 
+[?2004lthing is foo
+thing is baz
+thing is bat
+[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ bat loop 
+[?2004lCommand 'bat' not found, but can be installed with:
+sudo apt install bacula-console-qt
+[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ sudo apt install bacula-console-qt
+[?2004l[sudo] password for amd: **  
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 14%Reading state information... Done
+The following additional packages will be installed:
+  bacula-common
+The following NEW packages will be installed:
+  bacula-common bacula-console-qt
+0 upgraded, 2 newly installed, 0 to remove and 448 not upgraded.
+Need to get 2,763 kB of archives.
+After this operation, 5,214 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Connecting to archive.ubuntu.com (2620:2d:4002:1::102)][0m[33m0% [Connecting to archive.ubuntu.com (2620:2d:4000:1::101)][0m[33m0% [Connecting to archive.ubuntu.com (2a06:bc80:0:1000::18)][0m[33m                                                            0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 bacula-common amd64 13.0.4-1build3 [832 kB]
+[33m0% [1 bacula-common 14.3 kB/832 kB 2%][0m[33m21% [1 bacula-common 729 kB/832 kB 88%][0m[33m                                       34% [Working][0m             Get:2 http://archive.ubuntu.com/ubuntu noble/universe amd64 bacula-console-qt amd64 13.0.4-1build3 [1,931 kB]
+[33m34% [2 bacula-console-qt 7,006 B/1,931 kB 0%][0m[33m87% [2 bacula-console-qt 1,827 kB/1,931 kB 95%][0m[33m                                               100% [Working][0m              Fetched 2,763 kB in 23s (119 kB/s)
+
+7[0;13r8[1ASelecting previously unselected package bacula-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 466276 files and directories currently installed.)
+Preparing to unpack .../bacula-common_13.0.4-1build3_amd64.deb ...
+7[14;0f[42m[30mProgress: [  0%][49m[39m [...........................................................................................................................................] 87[14;0f[42m[30mProgress: [ 11%][49m[39m [###############............................................................................................................................] 8Adding user 'bacula'... Ok.
+Unpacking bacula-common (13.0.4-1build3) ...
+7[14;0f[42m[30mProgress: [ 22%][49m[39m [##############################.............................................................................................................] 8Selecting previously unselected package bacula-console-qt.
+Preparing to unpack .../bacula-console-qt_13.0.4-1build3_amd64.deb ...
+7[14;0f[42m[30mProgress: [ 33%][49m[39m [##############################################.............................................................................................] 8Unpacking bacula-console-qt (13.0.4-1build3) ...
+7[14;0f[42m[30mProgress: [ 44%][49m[39m [#############################################################..............................................................................] 8Setting up bacula-common (13.0.4-1build3) ...
+7[14;0f[42m[30mProgress: [ 56%][49m[39m [#############################################################################..............................................................] 87[14;0f[42m[30mProgress: [ 67%][49m[39m [############################################################################################...............................................] 8Setting up bacula-console-qt (13.0.4-1build3) ...
+7[14;0f[42m[30mProgress: [ 78%][49m[39m [############################################################################################################...............................] 8
+Creating config file /etc/bacula/bat.conf with new version
+7[14;0f[42m[30mProgress: [ 89%][49m[39m [###########################################################################################################################................] 8Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+
+7[0;14r8[1A[J[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ bat loop 
+[?2004lCopyright (C) 2007-2023 Kern Sibbald.
+
+Version: 13.0.4 (12 February 2024) x86_64-pc-linux-gnu ubuntu 24.04
+
+Usage: bat [-s] [-c config_file] [-d debug_level] [config_file]
+       -c <file>   set configuration file to file
+       -dnn        set debug level to nn
+       -s          no signals
+       -t          test - read configuration and exit
+       -?          print this message.
+
+[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ basj[Kh -n loop
+[?2004l[?2004h]0;amd@amd-VirtualBox: ~/Desktop/waste-of-time/scripts[01;32mamd@amd-VirtualBox[00m:[01;34m~/Desktop/waste-of-time/scripts[00m$ echo $?
+[?2004l0
+[?2004h]0;amd@amd-VirtualBox: ~/Deskto

@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+name='ahmad'
+number=38
+system=$(uname)
+
+echo "hello $name (your number is $number)"
+echo "your system is $system"
+echo "hello $inputname"
+
+if [[ -n $1 ]]; then ##checks if first argument is set
+	firstarg=$1
+else	
+	#firstarg="no input argument were given"
+	read -p 'Enter your name: '  inputname
+fi
+
+echo "hello first argument: $firstarg"
