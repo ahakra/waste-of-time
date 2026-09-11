@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# Usage: bash scripts/case-example ahmad bob "alice smith"
+if [[ $# == 0 ]]; then
+    echo "please provide input"
+    exit 1
+fi
+
+for name in "$@"; do
+    case "$name" in
+        a*) # Match names starting with lowercase a.
+            echo "hello $name"
+            ;;
+        *) # Match anything else (the fallback).
+            echo "goodbye $name"
+            ;;
+    esac # End the case statement.
+done

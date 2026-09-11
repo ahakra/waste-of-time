@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+max=5
+#for thing in {1..$max}; do #using this will break
+for ((i=0; i<max; i++)); do #c style for loop
+	echo "thing is $i";
+done

@@ -1,0 +1,17 @@
+hello() {
+    local name="$1"
+    echo "hello $name"
+}
+
+if [[ $# == 0 ]]; then
+    echo "please provide input"
+    exit 1
+else
+    for name in "$@"; do
+        if [[ $name == a* ]]; then
+            hello "$name"
+        else
+            echo "goodbye $name"
+        fi
+    done
+fi
