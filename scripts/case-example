@@ -5,6 +5,8 @@ if [[ $# == 0 ]]; then
     echo "please provide input"
     exit 1
 fi
+#use ;& to fall though to the next case statement
+#use ;;& to check next match also
 
 for name in "$@"; do
     case "$name" in
