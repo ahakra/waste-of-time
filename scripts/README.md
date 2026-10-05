@@ -44,3 +44,7 @@ echo "$PATH" | tr : '\n' #translate : to new line
 thing=$(uname -a) #set variable , by executing command in $( )
 bash -n script #check for syntax error
 ```
+
+
+## TODO
+> Bash parameter expansion prefix suffix removal
